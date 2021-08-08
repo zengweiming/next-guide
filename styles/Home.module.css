@@ -111,6 +111,46 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  background-image: url(chrome://new-tab-page/icons/google_logo.svg)
+}
+
+.flexBom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 353px;
+}
+
+.IMG {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #eee;
+  text-align: center;
+  line-height: 48px !important;
+  margin-left: 32px;
+}
+
+.liBox {
+  width: 112px;
+  height: 112px;
+  overflow: hidden;
+}
+
+.boxP {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.addIMG {
+  background: var(--ntp-theme-shortcut-background-color);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
 }
 
 @media (max-width: 600px) {
